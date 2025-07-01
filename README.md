@@ -31,7 +31,7 @@ Open a Developer PowerShell or comand prompt in the project folder and compile *
 
 ```bash
 # Using MinGW g++
-g++ -std=c++17 main.cpp clock.cpp -o clock.exe
+g++ main.cpp clock.cpp -o clock.exe
 ```
 ## Usage
 
