@@ -11,3 +11,6 @@ This **Digital Console Clock** is a simple, class-based C++ program that display
 ```bash
 # From your project root:
 g++  main.cpp clock.cpp -o clock.exe
+
+```Usage
+./clock.exe
