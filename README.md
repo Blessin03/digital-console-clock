@@ -26,8 +26,8 @@ g++ -std=c++17 main.cpp clock.cpp -o clock.exe
 ## Usage
 
 ```bash
-`./clock.exe`
-
+./clock.exe
+```
 Enter the starting hour (0–23), minute (0–59), and second (0–59).
 
 Watch the clock update every second.
