@@ -22,7 +22,7 @@ Open a Developer PowerShell or comand prompt in the project folder and compile *
 ```bash
 # Using MinGW g++
 g++ -std=c++17 main.cpp clock.cpp -o clock.exe
-
+```
 ## Usage
 
 ```bash
@@ -33,14 +33,4 @@ Watch the clock update every second.
 
 Press Ctrl + C to stop.
 
-Features
-Feature	Details
-Zero-Padded Display	Uses <iomanip> (setw(2), setfill('0')) so the clock always shows HH:MM:SS (e.g. 09:05:03).
-Colorized Output	Seconds are displayed in bright red via Win32 SetConsoleTextAttribute, then reset to your console’s default palette.
-Modular Class Design	All timing, display, and color logic live in a reusable Clock class (Clock.hpp / clock.cpp), keeping main.cpp minimal.
-Graceful Exit Hint	Prints “Press Ctrl+C to exit” beneath the clock so users know how to quit.
-Easy Extensibility	Ready for future upgrades (12-hour mode, ASCII frame, alarms, etc.).
 
-sql
-Copy
-Edit
