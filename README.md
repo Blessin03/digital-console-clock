@@ -13,6 +13,16 @@ I built it to sharpen my skills with:
 - Windows-specific console APIs (`SetConsoleTextAttribute`)
 - Modular, header-driven class design
 
+
+---
+
+## Screenshot
+
+![Clock running at 10:00:05](assets/clock-running-1.png)
+
+![Clock running at 23:59:59](assets/clock-running-2.png)
+
+
 ---
 
 ## Build Instructions
