@@ -34,4 +34,12 @@ Watch the clock update every second.
 
 Press Ctrl + C to stop.
 
+---
+
+## Prerequisites
+
+- Windows 10/11 console (PowerShell or CMD)  
+- A C++17-capable compiler: MinGW’s `g++` **or** Visual Studio’s MSVC
+
+
 
