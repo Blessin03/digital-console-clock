@@ -16,7 +16,7 @@ I built it to sharpen my skills with:
 
 ---
 
-## Screenshot
+## Screenshots
 
 ![Clock running at 10:00:05](assets/clock-running-1.png)
 
