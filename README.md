@@ -1,19 +1,13 @@
-# digital-console-clock
-A C++ console clock with color and modular design 
+# Digital Console Clock
 
-# OVERVIEW
-This Digital Console Clock is a simple, modular C++ program that displays real-time in a clean, zero-padded format with colorized output in the console. I built this project to practice modular class-based design, console handling with the Windows API, and formatting techniques using modern C++.
+> A C++ console clock with color and class (modular) design.
 
+## Overview
 
-# build instuctions
+This **Digital Console Clock** is a simple, class-based C++ program that displays real time in your terminal. It features zero-padded formatting, colorized seconds. I built it to practice modular design, Windows console APIs, and modern C++ formatting techniques.
+
+## Build Instructions
+
+```bash
+# From your project root:
 g++  main.cpp clock.cpp -o clock.exe
-
-# usage 
-./clock.exe
-
-# Prerequisites: 
-MinGW or MSVC, Windows console
-
-
-
-
